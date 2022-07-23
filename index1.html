@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class1</title>
+
+    <style>
+        table,thead,tbody,tr,td{
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+        }
+        </style>
+
+</head>
+<body>
+<!-- block level elements -->
+<div style="background-color: aqua;"> i am div</div>
+<article style="background-color: bisque;"> i am article</article>
+<!-- inline level elements -->
+<a href="" style="background-color: aquamarine;">i am anchor</a>
+<!-- semantic tags -->
+<header></header> <footer></footer> <summary></summary> <details></details>
+<aside></aside> <main></main> <nav></nav> <section></section> <article></article>
+<figure></figure> <figcaption></figcaption> <hr>
+<!-- list tags ul ol dl li -->
+<ol><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ol>
+<ol type="A"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ol>
+<ol type="a"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ol>
+<ol type="1"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ol>
+<ol type="I"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ol>
+<ol type="i"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ol>
+<ul><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ul>
+<ul type="circle"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ul>
+<ul type="disc"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ul>
+<ul type="square"><li>apple</li><li>mango</li><li>grapes</li><li>banana</li></ul>
+<hr>
+<!-- class assignment -->
+<h3><u>Fruits:</u></h3>
+<ol>
+    <li>Grapes</li>
+    <li>Mango</li>
+</ol>
+<h2>Food:</u></h2>
+<h3><u>Vegetables:</u></h3>
+<ul>
+    <li>Beans</li>
+    <li>Carrot</li>
+</ul>
+
+<u><h1>Food:</h1></u>
+<ol>
+    <u><li>Veg</li></u>
+    <ol>
+        <li>gobi</li>
+            <ul>
+                <li>manchurian</li>
+                <li>chilly</li>
+            </ul>
+        <li>panner</li>
+            <ul>
+                <li>pepper</li>
+            </ul>
+    </ol>
+    <u><li>Non veg</li></u>
+    <ol type="i">
+        <li>Kabab</li>
+        <li>Biryani</li>
+            <ul type="circle">
+                <li>Chicken</li>
+                <li>Mutton</li>
+            </ul>
+    </ol>
+</ol>
+<hr>
+<dl>
+    <dt>HTML:</dt>
+    <dd>hyper text markup language</dd>
+    <dt>CSS:</dt>
+    <dd>cascading style sheets</dd>
+</dl>
+<hr>
+<!-- paragraph tab spacing -->
+<p style="text-indent: 100px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sapiente adipisci odio nobis delectus soluta sed earum, facere, accusantium veritatis quaerat itaque quasi distinctio cupiditate quas architecto, est ut doloremque.</p>
+<!-- details - use of tags -->
+<details style="background-color: bisque;"> i am details
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nesciunt obcaecati quasi enim? Similique aspernatur dolore, pariatur optio minus deleniti alias fuga perspiciatis quos quia unde, ad porro culpa quasi?</p>
+    <summary style="background-color: aqua;"> i am summary</summary>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, officiis doloremque? Vitae eveniet culpa neque, soluta accusamus repudiandae facilis ex est numquam animi perspiciatis aspernatur error similique, voluptate a consectetur?</p>
+</details>
+<hr>
+<!-- dropdown in html -->
+<form action="#">
+    <select name="reloaded" id="">
+        <option value="hi">hi</option>
+        <option value="hello">hello</option>
+        <option value="namaskara">namaskara</option>
+        <option value="vanakam">vanakam</option>
+    </select>
+    <input type="submit">
+</form>
+<hr>
+<!-- others -->
+log<sub>x</sub> <br>
+x<sup>2</sup> <hr>
+<pre> skahkujbcf
+    \zdv;jdlifjasilj
+    ascljasjkd
+</pre>
+<hr>
+<!-- table tags -->
+<table border="2px">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Place</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Raja</td>
+            <td>TYSS</td>
+            <td>Basavangudi</td>
+        </tr>
+        <tr>
+            <td>Rani</td>
+            <td>TCS</td>
+            <td>Whitefield</td>
+        </tr>
+        <tr>
+            <td>Mala</td>
+            <td>WIPRO</td>
+            <td>Domlur</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<!-- class assignment -->
+<table border="2px">
+    <thead>
+        <tr>
+            <th>4X4</th>
+            <th>4X4</th>
+            <th>4X4</th>
+            <th colspan="3">4X4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <colgroup>
+            <col span="1" style="background-color: aquamarine;">
+        </colgroup>
+        <tr>
+            <td colspan="2">4X4</td>
+            <td>4X4</td>
+            <td colspan="2">4X4</td>
+            <td>4X4</td>
+        </tr>
+        <tr>
+            <td>4X4</td>
+            <td colspan="2">4X4</td>
+            <td>4X4</td>
+            <td colspan="2">4X4</td>
+        </tr>
+        <tr>
+            <td colspan="2">4X4</td>
+            <td>4X4</td>
+            <td colspan="2">4X4</td>
+            <td>4X4</td>
+        </tr>
+        <tr>
+            <td>4X4</td>
+            <td colspan="2">4X4</td>
+            <td>4X4</td>
+            <td colspan="2">4X4</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<!-- class assignment -->
+<table>
+    <thead>
+        <tr style="background-color: cornflowerblue;">
+            <td>DAYS</td>
+            <td rowspan="2">MONDAY</td>
+            <td rowspan="2">TUESDAY</td>
+            <td rowspan="2">WEDNESDAY</td>
+            <td rowspan="2">THURSDAY</td>
+            <td rowspan="2">FRIDAY</td>
+            <td rowspan="2">SATURDAY</td>
+        </tr>
+        <tr>
+            <td style="background-color: cornflowerblue;">TIME</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: aquamarine;">
+            <td>09:00 - 11:00</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+        </tr>
+        <tr style="background-color: thistle;">
+            <td>11:00 - 11:15</td>
+            <td colspan="6" style="text-align: center;">TEA BREAK</td>
+        </tr>
+        <tr style="background-color: aquamarine;">
+            <td>11:15 - 01:00</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+        </tr>
+        <tr style="background-color: thistle;">
+            <td>01:00 - 02:00</td>
+            <td colspan="6" style="text-align: center;">LUNCH BREAK</td>
+        </tr>
+        <tr style="background-color: aquamarine;">
+            <td>02:00 - 04:00</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+        </tr>
+        <tr style="background-color: thistle;">
+            <td>04:00 - 04:15</td>
+            <td colspan="6" style="text-align: center;">TEA BREAK</td>
+        </tr>
+        <tr style="background-color: aquamarine;">
+            <td>04:15 - 06:00</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JS</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
